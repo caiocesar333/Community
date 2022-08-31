@@ -96,6 +96,9 @@ button{
     color: black;
 }
 
+
+/* Responsividade */
+
 @media screen and (max-width: 480px){
     .text, .text-title, .text-des{
         width: auto;
@@ -104,5 +107,41 @@ button{
     .text-des, .text-title{
         text-align: center;
         align-content: center;
+    }
+}
+
+@media screen and (min-width: 410px) {
+    .banner-img{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    *{
+        font-size: 1.5rem;
+    }
+    img{
+        width:300px ;
+    } 
+}
+@media screen and (min-width: 1200px) {
+    *{
+        font-size: 2rem;
+    }
+    img{
+        width:300px ;
+    } 
+    .text-des{
+        text-align: center;
+        align-content: center;
+    }
+    .btn-container{
+        
+    }
+    button{
+        font-size: 2rem;
+    }
+    .continue{
+        width: 500px;
     }
 }
