@@ -1,0 +1,108 @@
+*{
+    font-family: 'Poppins', sans-serif;  
+}
+
+/* Imagem do banner */
+
+.banner-img{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* Título e descrição */
+.text-title{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+}
+
+.text-des{
+    display: flex;
+    justify-content: center;
+}
+
+/* Navegação entre as páginas */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.nav button{
+    margin: 20px;
+    display: inline;
+    padding: 8px;
+    width: 5px;
+    height: 3px;
+    border-width: thin;
+    border-radius: 50%;
+}
+
+.current{
+    background: #92E3A9;
+    border: none;
+}
+
+
+/* Botões de ações */
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
+button{
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.continue{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 200px;
+    align-self: center;
+    border: none;
+    background: #92E3A9;
+    color: white;
+}
+
+.continue:hover{
+    cursor: pointer;
+    background: black;
+    color: #92E3A9;
+    transition: 300ms;
+}
+
+.skip{
+    margin-bottom: 12px;
+    width: 200px;
+    align-self: center;
+    border: none;
+    background: white;
+    color: #92E3A9;
+}
+
+.skip:hover{
+    cursor: pointer;
+    color: black;
+}
+
+@media screen and (max-width: 480px){
+    .text, .text-title, .text-des{
+        width: auto;
+    }
+
+    .text-des, .text-title{
+        text-align: center;
+        align-content: center;
+    }
+}
