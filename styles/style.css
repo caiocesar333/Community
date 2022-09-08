@@ -104,10 +104,13 @@ button{
     .text, .text-title, .text-des{
         width: auto;
     }
-
     .text-des, .text-title{
         text-align: center;
         align-content: center;
+    }
+
+    .banner-img img{
+        width: 200px;
     }
 }
 
